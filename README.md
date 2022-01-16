@@ -19,5 +19,11 @@
     - use value_counts to calculate duplicates
     - use loc to filter on those with multiple dupkey
     - reset the index and then rename the columns
+    - find the Mouse ID(s) with any duplicate Mouse ID and Timepoint
+    - merge back to original mouse combined file and create a new df with all records for the mouse with duplicates
+    
+**- create df removing
+    - use loc to create a clean list without the mouse with duplicates
+    - calculate the number of 'clean' unique mice
 
 
