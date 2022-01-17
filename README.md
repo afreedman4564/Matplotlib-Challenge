@@ -26,4 +26,10 @@
     - use loc to create a clean list without the mouse with duplicates
     - calculate the number of 'clean' unique mice
 
+## Create Summary Stats Table
+    - Use groupby regimen and agg function to allow efficient calculation and creation of single df
+    - Reset index to clean up the view
+
+
+
 
