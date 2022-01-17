@@ -30,6 +30,12 @@
     - Use groupby regimen and agg function to allow efficient calculation and creation of single df
     - Reset index to clean up the view
 
+## Calculate summary stats
+    - use groupby on drug regimen along with agg to calculate in one df all stats
+    - force column rename using .columns and the reset_index using inplace = True to allow overwrite of prior df
+    - calculate same statistics for complete file, using similar approach as above
+
+
 
 
 
