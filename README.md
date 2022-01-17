@@ -33,7 +33,8 @@
 ## Calculate summary stats
     - use groupby on drug regimen along with agg to calculate in one df all stats
     - force column rename using .columns and the reset_index using inplace = True to allow overwrite of prior df
-    - calculate same statistics for complete file, using similar approach as above
+    - calculate same statistics for complete file(overall), using similar approach as above
+    - combine both drug regimen and overall summary file using append
 
 
 
