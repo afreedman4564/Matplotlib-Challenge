@@ -36,6 +36,22 @@
     - calculate same statistics for complete file(overall), using similar approach as above
     - combine both drug regimen and overall summary file using append
 
+## Create bar graphs
+    - create bar graph using pandas
+    - create bar graph using matplotlib.pyplot
+    - add formatting for aesthetics
+        - title, x-axis, y-axis, footnote, green shading for bars
+
+## Create pie graphs
+    - groupby gender and calculate unique Mouse ID by gender
+    - Transpose the data table
+    - create pie graph with pandas and matplotlib.pyplot
+
+
+
+
+
+
 
 
 
