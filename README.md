@@ -47,7 +47,20 @@
     - Transpose the data table
     - create pie graph with pandas and matplotlib.pyplot
 
+## Quartiles, Outliers and Boxplots
+    - creat filtered df with regimens: Capomulin, Ramicane, Infubinol, and Ceftamin
+    - use groupby to id the last timepoint for each mouse
+    - left merge back to main df to obtain the tumor size
+    - create list of drug regimens from df
+    - create series of empty lists and use for loop to calculate for each regimen quartiles, iqr and upper and lower bounds
+    - use calculated upper and lower bounds to id possible outliers
+    - create box plot
 
+## Scatter plots
+    - create list with tumor volume and weight
+    - create line plot for l509 mouse, trending timepoint and tumor size
+    - create scatter plot of weight and avg tumor size for all mice in Capomulin regimen
+    - generate identical scatter plot, overlaying regression line and displaying the regression model along with r-squared
 
 
 
